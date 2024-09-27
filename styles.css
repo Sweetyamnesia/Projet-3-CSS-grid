@@ -1,0 +1,188 @@
+body {
+    background-color: #EDF2F8;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 10pt;
+    line-height: 1.5;
+}
+
+@media only screen and (min-width : 600px) {
+    .grid{
+        display: grid;
+        grid-gap: 20px;
+        grid-auto-flow: row;
+        margin: 5%;
+        padding: 5%;
+    }
+
+    .ID{
+        display: flex;
+        margin-left: 5%;
+        margin-top: 5%;
+    }
+
+    .avatar{
+        border: 2px solid plum;
+        border-radius: 50%;
+        margin-right: 2%;
+        width: 30px;
+    }
+
+    h3{
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    .text{
+        display: flex;
+        margin-left: 5%;
+        margin-right: 5%;
+        color: #848893;
+    }
+
+    .grad{
+        color: #818DA0;
+        font-size: 8pt;
+    }
+
+    .card1 {
+        background-color: #733FC8;
+        border: none;
+        border-radius: 5px;
+        color: white;
+        padding: 5px;
+        grid-column-start: 1;
+        grid-column-end: 3;
+        grid-row-start: 1;
+        grid-row-end: 2;
+        background-image: url("./quote_transparent.png"); 
+        background-repeat: no-repeat; 
+        background-position: top right 50px; 
+        background-size: 100px 100px;
+    }
+
+    .card2 {
+        background-color: #49566B;
+        border: none;
+        border-radius: 5px;
+        color: white;
+        padding: 5px;
+        grid-column-start:  3;
+        grid-column-end: 4;
+        grid-row-start: 1;
+        grid-row-end: 2;
+    }
+
+    .card3 {
+        background-color: #FFFEFF;
+        border: none;
+        border-radius: 5px;
+        padding: 5px;
+        grid-column-start: 1;
+        grid-column-end: 2;
+        grid-row-start: 2;
+        grid-row-end: 2;
+    }
+    
+    .card4 {
+        background-color: #18202D;
+        border: none;
+        border-radius: 5px;
+        color: white;
+        padding: 5px;
+        grid-column-start: 2;
+        grid-column-end: 4;
+        grid-row-start: 2;
+        grid-row-end: 2;
+    }
+
+    .card5 {
+        background-color: #FFFFFF;
+        border: none;
+        border-radius: 5px;
+        padding: 5px;
+        grid-column-start: 4;
+        grid-column-end: 5;
+        grid-row-start: 1;
+        grid-row-end: 3;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .grid{
+        display: grid;
+        grid-gap: 20px;
+        grid-auto-flow: row;
+        margin: 5%;
+    }
+
+    .ID{
+        display: flex;
+        margin-left: 5%;
+        margin-top: 5%;
+    }
+
+    .avatar{
+        border: 2px solid plum;
+        border-radius: 50%;
+        width: 30px;
+        margin-right: 2%;
+    }
+
+    h3{
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+
+    .text{
+        margin-left: 5%;
+        margin-right: 5%;
+        color: #848893;
+    }
+
+    .grad{
+        color: #818DA0;
+        font-size: 8pt;
+    }
+
+    .card1 {
+        background-color: #733FC8;
+        border: none;
+        border-radius: 5px;
+        color: white;
+        padding: 5px;
+        background-image: url("./quote_transparent.png"); 
+        background-repeat: no-repeat; 
+        background-position: top right 20px; 
+        background-size: 100px 100px;
+    }
+
+    .card2 {
+        background-color: #49566B;
+        border: none;
+        border-radius: 5px;
+        padding: 5px;
+        color: white;
+    }
+
+    .card3 {
+        background-color: #FFFEFF;
+        border: none;
+        border-radius: 5px;
+        padding: 5px;
+    }
+    
+    .card4 {
+        background-color: #18202D;
+        border: none;
+        border-radius: 5px;
+        color: white;
+        padding: 5px;
+    }
+
+    .card5 {
+        background-color: #FFFFFF;
+        border: none;
+        border-radius: 5px;
+        padding: 5px;
+    }
+}
