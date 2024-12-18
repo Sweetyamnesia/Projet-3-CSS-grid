@@ -1,5 +1,5 @@
 # Description du projet : 
-Ce projet avait pour objectif de oratiquer **CSS Grid** pour créer une mise en page moderne avec un alignement de plusieurs **cards** (cartes) sur une page.
+Ce projet avait pour objectif de pratiquer **CSS Grid** pour créer une mise en page moderne avec un alignement de plusieurs **cards** (cartes) sur une page.
 L'objectif principal était de maîtriser l'utilisation de **CSS Grid** pour organiser ces cartes de manière fluide et réactive, tout en applqiuznt des **media queries** pour
 adapter la mise en page sur différents appareils (mobile, tablette, bureau).
 
